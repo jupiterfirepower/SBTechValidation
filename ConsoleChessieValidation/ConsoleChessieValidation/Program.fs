@@ -12,28 +12,21 @@ module ConstrainedTypes =
         | true -> ok email
         | false -> fail "email not valid"
 
+    let private idResult = fun id -> validateId id
+    let private nameResult = fun name -> validateName name
+    let private emailResult = fun email -> validateEmail email
+    let private create = fun id name email -> { id = id; name = name; email = email }
+
     let Create id name email = 
-        let idResult = validateId id
-        let nameResult = validateName name
-        let emailResult = validateEmail email
-    
-        let create = fun id name email -> { id = id; name = name; email = email }
-    
         create 
-        <!> idResult
-        <*> nameResult
-        <*> emailResult
+        <!> idResult id
+        <*> nameResult name
+        <*> emailResult email
 
     let Create' id (name:string) (email:string) = 
-        let idResult = validateId id
-        let nameResult = validateName name
-        let emailResult = validateEmail email
-    
-        let create = fun id name email -> { id = id; name = name; email = email }
-        
-        idResult 
-        >>= fun id -> nameResult 
-        >>= fun name -> emailResult 
+        idResult id 
+        >>= fun id -> nameResult name
+        >>= fun name -> emailResult email
         >>= fun email -> ok (create id name email)
 
 open ConstrainedTypes
