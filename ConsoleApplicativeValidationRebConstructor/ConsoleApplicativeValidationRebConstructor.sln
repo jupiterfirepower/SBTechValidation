@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ConsoleApplicativeValidationRebConstructor", "ConsoleApplicativeValidationRebConstructor\ConsoleApplicativeValidationRebConstructor.fsproj", "{709B4165-2EFB-49F8-B9A3-8B798F02F483}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{709B4165-2EFB-49F8-B9A3-8B798F02F483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{709B4165-2EFB-49F8-B9A3-8B798F02F483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{709B4165-2EFB-49F8-B9A3-8B798F02F483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{709B4165-2EFB-49F8-B9A3-8B798F02F483}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52A97EC4-634D-48BA-BCB4-AC40D631C191}
+	EndGlobalSection
+EndGlobal

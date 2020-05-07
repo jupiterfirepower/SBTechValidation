@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ConsoleChessieValidation", "ConsoleChessieValidation\ConsoleChessieValidation.fsproj", "{13DAF0F0-004B-469E-B851-9738CD9D882A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13DAF0F0-004B-469E-B851-9738CD9D882A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13DAF0F0-004B-469E-B851-9738CD9D882A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13DAF0F0-004B-469E-B851-9738CD9D882A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13DAF0F0-004B-469E-B851-9738CD9D882A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {514921C9-CC6A-43AB-A5C2-25D3A799BB12}
+	EndGlobalSection
+EndGlobal

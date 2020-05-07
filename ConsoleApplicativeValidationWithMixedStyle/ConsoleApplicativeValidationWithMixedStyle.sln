@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ConsoleApplicativeValidationWithMixedStyle", "ConsoleApplicativeValidationWithMixedStyle\ConsoleApplicativeValidationWithMixedStyle.fsproj", "{DEDBF356-A143-42D6-9630-856239C814AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEDBF356-A143-42D6-9630-856239C814AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEDBF356-A143-42D6-9630-856239C814AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEDBF356-A143-42D6-9630-856239C814AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEDBF356-A143-42D6-9630-856239C814AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C53771A-0EE8-40F3-914B-A1119A3F3D04}
+	EndGlobalSection
+EndGlobal
