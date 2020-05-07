@@ -4,9 +4,9 @@ open System.Text.RegularExpressions
 module ConstrainedTypes =
     type Entity = private { id:int; name:string; email:string }
 
-    let validateId id = if id > 0 then ok id else fail "id not valid"
-    let validateName (name: string) = if name.Length > 1 then ok name else fail "name not valid"
-    let validateEmail (email: string) = 
+    let private validateId id = if id > 0 then ok id else fail "id not valid"
+    let private validateName (name: string) = if name.Length > 1 then ok name else fail "name not valid"
+    let private validateEmail (email: string) = 
         let regex = new Regex(@"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$")
         match regex.IsMatch(email) with
         | true -> ok email
