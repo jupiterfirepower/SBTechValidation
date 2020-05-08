@@ -194,7 +194,7 @@ https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world
 <img src="/img/monad/32.png" title="hover text">
 </p>
 <p align="left">
-<img src="/img/monad/30.png" title="hover text">
+<img src="/img/monad/31.png" title="hover text">
 </p>
 <p><b>Полезным, в таких случаях будут примеры из первоситочника так сказать Haskell</b></p>
 <p align="left">
