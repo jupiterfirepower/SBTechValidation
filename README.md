@@ -197,9 +197,6 @@ Such as: Don't be crazy(psycho).
 </p>
 <p> Like as:<br>
 </p>
-<p align="left">
-<img src="/img/monad/cybs1.jpg" title="hover text">
-</p>
 <p> <b>or the same as previous</b></p>
 <p align="left">
 <img src="/img/monad/24.png" title="hover text">
