@@ -124,3 +124,6 @@ in context validation - main idea aggregate errors(by validation rules) or const
 monadic style -> mean chainable combine (main idea get only first error in chain or construct correct object.<br>
 Railway Oriented Programming to describe this style of monadic error handling.<br>
 </p>
+<p>
+Compose
+</p>
