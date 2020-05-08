@@ -17,7 +17,7 @@
 <img src="/img/functor/3.png" width="350" title="hover text">
 </p>
 <p>
-Так что мы можем делать так: ?<br>
+Так что мы можем делать так: <br>
 > fmap (+3) (Just 2)
 Just 5
 </p>
@@ -27,5 +27,20 @@ Just 5
 <p align="left">
 <img src="/img/functor/4.png" width="350" title="hover text">
 </p>
+<p>
+функтор: вы применяете функцию к упакованному значению, используя fmap или <$>
+</p>
+<p>
+Аппликативные функторы
+<p>
+Оператор <*>, который знает, как применить функцию, упакованную в контекст, к значению, упакованному в контекст:
+<p>
+<p align="left">
+<img src="/img/applicativefunctor/1.png" width="350" title="hover text">
+</p>
+
+
+
+
 
 
