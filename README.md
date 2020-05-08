@@ -71,8 +71,8 @@ Just 8<br>
 <p>
 Пусть half — функция, которая работает только с чётными числами: <br>
 half x = if even x <br>
-           then Just (x `div` 2)<br>
-           else Nothing<br>
+&nbsp;&nbsp;&nbsp;&nbsp;then Just (x `div` 2)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;else Nothing<br>
 </p>
 <p>
 Вот как она работает:<br>
@@ -92,8 +92,8 @@ Monad — ещё один класс типов. Вот его частично�
 <p>
 Maybe — это монада:<br>
 instance Monad Maybe where<br>
-    Nothing >>= func = Nothing<br>
-    Just val >>= func  = func val<br>
+&nbsp;&nbsp;&nbsp;Nothing >>= func = Nothing<br>
+&nbsp;&nbsp;&nbsp;Just val >>= func  = func val<br>
 </p>
 <p>
 Можно так же связать цепочку из вызовов:<br>
@@ -179,9 +179,6 @@ Such as: Don't be crazy(psycho).
 <p align="left">                            
 <img src="/img/monad/crazyp.jpg" width="150" title="crazy p">
 <img src="/img/monad/crazyp22.png" width="150" title="crazy p">
-</p>
-<p align="left">                            
-<img src="/img/monad/joke.jpg" title="crazy p">
 </p>
 <p align="left">
 <img src="/img/monad/38.png" title="hover text">
