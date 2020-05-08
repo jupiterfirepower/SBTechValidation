@@ -171,6 +171,21 @@ https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world
 <p align="left">
 <img src="/img/monad/23s.png" title="hover text">
 </p>
+<p>
+Mixing the two styles<br>
+Now there is nothing to say that we canТt mix and match applicative and monadic styles.<br>
+<br>
+For example, we might build a CustomerInfo using applicative style, so that we donТt lose any errors,<br> 
+but later on in the program, when a validation is followed by a database update, <br>
+we probably want to use monadic style, so that the database update is skipped if the validation fails.<br>
+<br>
+ƒанные идеи также вкорне не верны, если у ¬ас правильна€ имплементаци€,<br>
+то модель предметной области всегда находитс€ в корректном состо€нии и в случае с WebApi или web application приемлемым(оптимальным) будет<br>
+applicative style(дл€ fron end все ошибки нужны сразу, чтобы отразить их на форме), <br>
+а когда вы прийдете на уровень к базе то модель уже в корректном состо€нии и не нужно ее провер€ть в стиле monadic style<br>
+все естественно зависит от реализации.<br>
+ƒл€ обработки данных(data processing or sreaming data processing) и записи их в бд, к примеру более оптимальным подходом будет monadic styles.<br>
+</p>
 <p>As joke: Don't be stupid be happy.</p>
 <p> <b>FP style programming подразумевает нечто совершенно другое - компилируетс€, <br>
 работает и нет возможности ошибок в последующем коде (противоречащим определенным правилам предметной области)</b><br>
