@@ -125,6 +125,6 @@ monadic style -> mean chainable combine (main idea get only first error in chain
 Railway Oriented Programming to describe this style of monadic error handling.<br>
 </p>
 <p align="left">
-<img src="/img/monad/3.png" width="350" title="hover text">
+<img src="/img/monad/3.png" title="hover text">
 </p>
 
