@@ -10,4 +10,11 @@
 <p align="left">
 <img src="/img/functor/2.png" width="350" title="hover text">
 </p>
+<p>
+‘унктором €вл€етс€ любой тип данных, дл€ которого определено, как к нему примен€етс€ fmap. ј вот как fmap работает:
+</p>
+<p align="left">
+<img src="/img/functor/3.png" width="350" title="hover text">
+</p>
+
 
