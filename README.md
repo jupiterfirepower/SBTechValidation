@@ -115,3 +115,12 @@ Maybe реализуется с помощью всех трёх классов типов, поэтому является функтором,
 https://habr.com/ru/post/183150/<br>
 http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html<br>
 </p>
+<p>
+https://fsharpforfunandprofit.com/<br>
+Example: Validation using applicative style and monadic style<br>
+"applicative" vs "monadic" style<br>
+applicative -> applicative functor<br>
+in context validation - main idea aggregate errors(by validation rules) or construct correct object.<br>
+monadic style -> mean chainable combine (main idea get only first error in chain or construct correct object.<br>
+Railway Oriented Programming to describe this style of monadic error handling.<br>
+</p>
