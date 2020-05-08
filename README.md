@@ -74,6 +74,49 @@ half x = if even x <br>
            then Just (x `div` 2)<br>
            else Nothing<br>
 </p>
+<p>
+Вот как она работает:<br>
+> Just 3 >>= half<br>
+Nothing<br>
+> Just 4 >>= half<br>
+Just 2<br>
+> Nothing >>= half<br>
+Nothing<br>
+</p>
+<p>
+Monad — ещё один класс типов. Вот его частичное определение:
+</p>
+<p align="left">
+<img src="/img/monad/2.png" width="350" title="hover text">
+</p>
+<p>
+Maybe — это монада:<br>
+instance Monad Maybe where<br>
+    Nothing >>= func = Nothing<br>
+    Just val >>= func  = func val<br>
+</p>
+<p>
+Можно так же связать цепочку из вызовов:<br>
+> Just 20 >>= half >>= half >>= half<br>
+Nothing <br>
+20->10->5->Nothing
+</p>
+<p>
+<b>монада</b>: вы применяете функцию, возвращающую упакованное значение, к упакованному значению, используя >>= или liftM
+</p>
+<p>
+Заключение(in Haskell терминологии)<br>
+Функтор — это тип данных, реализуемый с помощью класса типов Functor<br>
+Аппликативный функтор — это тип данных, реализуемый с помощью класса типов Applicative<br>
+Монада — это тип данных, реализуемый с помощью класса типов Monad<br>
+Maybe реализуется с помощью всех трёх классов типов, поэтому является функтором, аппликативным функтором и монадой одновременно<br>
+</p>
+<p>Более детально<br>
+https://habr.com/ru/post/183150/<br>
+http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html<br>
+</p>
+
+
 
 
 
