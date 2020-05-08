@@ -189,6 +189,26 @@ https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world
 <p align="left">
 <img src="/img/monad/25.png" title="hover text">
 </p>
+<p align="left">
+<img src="/img/monad/26.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/27.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/28.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/29.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/30.png" title="hover text">
+</p>
+
+
+
+
+
 
 
 
