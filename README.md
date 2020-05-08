@@ -140,6 +140,42 @@ let (>>=) a b =<br>
 // compose operator<br>
 let (>=>) a b =<br>
 &ensp;&ensp;&ensp;&ensp;compose a b<br>
+</p>
+<p>
+Railway oriented programming (ROP) is a technique in which errors and exceptions are handled as regular values that get passed through a workflow. <br>
+Additionally, if an error occurs in the first function, the second function never gets called, but we have deferred our error handling until after the workflow, and we can continue to pass it further.
+
+monadic style - we only got the first error.
+
+Applicative style
+let (<!>) = Result.map
+let (<*>) = apply
+
+Here's a code snippet using applicatives:
+
+let customerIdOrError =
+    createCustomerId dto.Id
+
+let nameOrError =
+    createPersonalName
+    <!> createFirstName dto.FirstName
+    <*> createLastName dto.LastName
+
+createCustomer
+<!> customerIdOrError
+<*> nameOrError
+<*> createEmail dto.Email //inline this one
+
+Common functional pattern Applicative
+let r =
+  Ok someFunction
+  <*> argument1
+  <*> argument2
+  <*> argument3
+  <*> argument4
+
+The benefit was that we didn't lose any of the validation errors.
+</p>
 
 
 
