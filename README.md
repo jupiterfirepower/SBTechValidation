@@ -140,10 +140,11 @@ https://fsharpforfunandprofit.com/<br>
 <img src="/img/monad/13.png" title="hover text">
 </p>
 <p>
-<b>Example: Validation using applicative style and monadic style</b>
-https://fsharpforfunandprofit.com/posts/elevated-world-3/#validation
-https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world-3.html
+<b>Example: Validation using applicative style and monadic style</b><br>
+https://fsharpforfunandprofit.com/posts/elevated-world-3/#validation<br>
+https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world-3.html<br>
 >
+<p> <b>Не используйте в реальной жизни пример из сайта https://fsharpforfunandprofit.com в изложенном там стиле</b></p>
 <p align="left">
 <img src="/img/monad/14s.png" title="hover text">
 </p>
@@ -174,7 +175,6 @@ https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world
 <p align="left">
 <img src="/img/monad/23s.png" title="hover text">
 </p>
-
-
+<p> <b>FP style programming подразумевает нечто немного друго - компилируется, работает и нет возможности ошибок в последующем коде (противоречащим определенным правилам предметной области)</b></p>
 
 
