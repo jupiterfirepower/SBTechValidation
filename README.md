@@ -38,6 +38,16 @@ Just 5
 <p align="left">
 <img src="/img/applicativefunctor/1.png" width="350" title="hover text">
 </p>
+<p>
+Just (+3) <*> Just 2 == Just 5
+</p>
+<p>
+Аппликативные функторы: <br>
+> (+) <$> (Just 5)<br>
+Just (+5)<br>
+> Just (+5) <*> (Just 3)<br>
+Just 8<br>
+</p>
 
 
 
