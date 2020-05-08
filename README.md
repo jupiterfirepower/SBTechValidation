@@ -68,6 +68,14 @@ Just 8<br>
 <p align="left">
 <img src="/img/monad/1.png" width="350" title="hover text">
 </p>
+<p>
+ѕусть half Ч функци€, котора€ работает только с чЄтными числами: <br>
+half x = if even x <br>
+           then Just (x `div` 2)<br>
+           else Nothing<br>
+</p>
+
+
 
 
 
