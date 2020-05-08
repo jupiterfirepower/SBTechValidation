@@ -115,6 +115,7 @@ Maybe реализуется с помощью всех трёх классов типов, поэтому является функтором,
 https://habr.com/ru/post/183150/<br>
 http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html<br>
 </p>
+<p>
 https://fsharpforfunandprofit.com/<br>
 Example: Validation using applicative style and monadic style<br>
 "applicative" vs "monadic" style<br>
@@ -122,70 +123,4 @@ applicative -> applicative functor<br>
 in context validation - main idea aggregate errors(by validation rules) or construct correct object.<br>
 monadic style -> mean chainable combine (main idea get only first error in chain or construct correct object.<br>
 Railway Oriented Programming to describe this style of monadic error handling.<br>
-<p>
-<p>
-mean chainable compose  ( Railway oriented programming (ROP) concept/style )<br>
-Compose<br>
-Next we have compose, which lets us pipe two bound functions together.<br>
-If the first function returns an Ok(x) as output, the second function takes the x as input and returns some Result.<br>
-<b>If the first function returns an Error, the second is never called. </b>
-<br>
-let compose f1 f2 =<br>
-&ensp;&ensp;&ensp;&ensp;fun x -> bind f2 (f1 x)<br>
-<br>
-// bind operator<br>
-let (>>=) a b =<br>
-&ensp;&ensp;&ensp;&ensp;bind b a<br>
-<br> 
-// compose operator<br>
-let (>=>) a b =<br>
-&ensp;&ensp;&ensp;&ensp;compose a b<br>
 </p>
-<p>
-Railway oriented programming (ROP) is a technique in which errors and exceptions are handled as regular values that get passed through a workflow. <br>
-Additionally, if an error occurs in the first function, the second function never gets called, but we have deferred our error handling until after the workflow, and we can continue to pass it further.
-
-monadic style - we only got the first error.
-
-Applicative style
-let (<!>) = Result.map
-let (<*>) = apply
-
-Here's a code snippet using applicatives:
-
-let customerIdOrError =
-    createCustomerId dto.Id
-
-let nameOrError =
-    createPersonalName
-    <!> createFirstName dto.FirstName
-    <*> createLastName dto.LastName
-
-createCustomer
-<!> customerIdOrError
-<*> nameOrError
-<*> createEmail dto.Email //inline this one
-
-Common functional pattern Applicative
-let r =
-  Ok someFunction
-  <*> argument1
-  <*> argument2
-  <*> argument3
-  <*> argument4
-
-The benefit was that we didn't lose any of the validation errors.
-</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
