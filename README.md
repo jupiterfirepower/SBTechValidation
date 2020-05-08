@@ -183,6 +183,12 @@ Such as: Don't be crazy(psycho).
 <p align="left">
 <img src="/img/monad/38.png" title="hover text">
 </p>
+<p align="left">
+<img src="/img/monad/cybs1.jpg" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/cybs2.jpg" title="hover text">
+</p>
 <p> <b>FP style programming подразумевает нечто совершенно другое - компилируется работает(концепция)<br> 
 и нет возможности ошибок в последующем коде (противоречащим определенным правилам предметной области)</b><br>
 не имеюются ввиду ошибки на уровне логики программиста - то есть написал не ту логику, не тот результат<br>
