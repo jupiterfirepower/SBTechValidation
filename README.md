@@ -115,6 +115,13 @@ Maybe реализуется с помощью всех трёх классов 
 https://habr.com/ru/post/183150/<br>
 http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html<br>
 </p>
+<p>In Haskell, an applicative functor is defined like this:
+</p>
+<p>
+class Functor f => Applicative f where
+&nbsp;&nbsp;pure  :: a -> f a
+&nbsp;&nbsp;(<*>) :: f (a -> b) -> f a -> f b
+</p>
 <p>
 https://fsharpforfunandprofit.com/<br>
 </p>
