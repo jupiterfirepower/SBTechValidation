@@ -1,11 +1,11 @@
 "# SBTechValidation" 
-
-<p>fmap (+3) (Just 2)</p>
 <p align="left">
-![Alt text](/img/functor/1.png?raw=true "")
-</p>
-
-<p align="left">
-  
+  <p>fmap (+3) (Just 2)</p>
   <img src="/img/functor/1.png" width="350" title="hover text">
 </p>
+<p align="left">
+Так что такое функтор на самом деле? </br>
+Функтор — это класс типов. Вот его определение:
+<img src="/img/functor/2.png" width="350" title="hover text">
+</p>
+
