@@ -176,7 +176,7 @@ https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world
 <p>As joke: Don't be stupid be happy.<br>
 Such as: Don't be crazy(psycho).
 </p>
-<p align="left">
+<p align="left">                            C:\Users\olehp\source\repos\Validation\README.md
 <img src="/img/monad/crazyp.jpg" title="crazy p">
 </p>
 <p align="left">
@@ -195,7 +195,6 @@ Such as: Don't be crazy(psycho).
 <p align="left">
 <img src="/img/monad/13.png" title="hover text">
 </p>
-<p> Like as:</p>
 <p align="left">
 <img src="/img/monad/cybs1.jpg" width="350" title="hover text">
 </p>
