@@ -180,6 +180,9 @@ Such as: Don't be crazy(psycho).
 <img src="/img/monad/crazyp.jpg" title="crazy p">
 </p>
 <p align="left">
+<img src="/img/monad/crazyp2.jpg" title="crazy p">
+</p>
+<p align="left">
 <img src="/img/monad/38.png" title="hover text">
 </p>
 <p> <b>FP style programming подразумевает нечто совершенно другое - компилируется работает(концепция)<br> 
