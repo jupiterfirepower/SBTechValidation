@@ -213,11 +213,10 @@ https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world
 <p align="left">
 <img src="/img/monad/31.png" title="hover text">
 </p>
-<p><b>ѕолезным, в таких случа€х будут примеры из первоситочника так сказать Haskell</b></p>
+<p><b>ѕолезным, в таких случа€х будут примеры из первоисточника(так сказать) - Haskell</b></p>
 <p align="left">
 <img src="/img/monad/26.png" title="hover text">
 </p>
-
 <p align="left">
 <img src="/img/monad/26.png" title="hover text">
 </p>
@@ -233,6 +232,11 @@ https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world
 <p align="left">
 <img src="/img/monad/30.png" title="hover text">
 </p>
+<p><b>»спользуйте - но не в таком стиле</b></p>
+<p align="left">
+<img src="/img/monad/34.png" title="hover text">
+</p>
+
 
 
 
