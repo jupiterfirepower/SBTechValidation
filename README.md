@@ -130,5 +130,15 @@ Next we have compose, which lets us pipe two bound functions together.<br>
 <b>If the first function returns an Error, the second is never called. </b>
 </p>
 <p>
-
+let compose f1 f2 =<br>
+&ensp;&ensp;&ensp;&ensp;fun x -> bind f2 (f1 x)<br>
+<br>
+// bind operator<br>
+let (>>=) a b =<br>
+&ensp;&ensp;&ensp;&ensp;bind b a<br>
+<br> 
+// compose operator<br>
+let (>=>) a b =<br>
+&ensp;&ensp;&ensp;&ensp;compose a b<br>
 </p>
+
