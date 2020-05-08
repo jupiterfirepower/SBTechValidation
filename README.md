@@ -1,4 +1,4 @@
-"# SBTechValidation" 
+"# Applicative style and monadic style Validation" 
 <p align="left">
   <p>fmap (+3) (Just 2)</p>
   <img src="/img/functor/1.png" width="350" title="hover text">
@@ -206,13 +206,13 @@ https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world
 <p align="left">
 <img src="/img/monad/37.png" title="hover text">
 </p>
+<p><b>Seq.map (fun x -> string (x + 10)) [ 1..100_000 ] быстрее за FSharpPlus map (fun x -> string (x + 10)) [ 1..100_000 ] в 6.666 раз, почти в 7 раз  </b></p>
 <p align="left">
 <img src="/img/monad/32.png" title="hover text">
 </p>
 <p align="left">
 <img src="/img/monad/31.png" title="hover text">
 </p>
-<p><b>Seq.map (fun x -> string (x + 10)) [ 1..100_000 ] быстрее за FSharpPlus map (fun x -> string (x + 10)) [ 1..100_000 ] в 6.666 раз, почти в 7 раз  </b></p>
 <p><b>Полезным, в таких случаях будут примеры из первоситочника так сказать Haskell</b></p>
 <p align="left">
 <img src="/img/monad/26.png" title="hover text">
