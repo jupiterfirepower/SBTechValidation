@@ -176,11 +176,10 @@ https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world
 <p>As joke: Don't be stupid be happy.<br>
 Such as: Don't be crazy(psycho).
 </p>
-<p align="left">
+<div align="left">
 <img src="/img/monad/crazyp.jpg" title="crazy p">
 <img src="/img/monad/crazyp2.jpg" title="crazy p">
-<img src="/img/monad/crazyp3.JPG" title="crazy p">
-</p>
+</div>
 
 <p align="left">
 <img src="/img/monad/38.png" title="hover text">
