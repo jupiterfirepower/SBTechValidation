@@ -171,18 +171,17 @@ https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world
 <p align="left">
 <img src="/img/monad/23s.png" title="hover text">
 </p>
-<p>Американцы удивляются, как русские(россияне) взламывают их системы. :)</p>
 <p align="left">
 <p>As joke: Don't be stupid be happy.</p>
 <p>Such as: Don't be crazy(psycho).</p>
 <p align="left">
-<img src="/img/monad/crazyp.png" title="hover text">
+<img src="/img/monad/crazyp.jpg" title="hover text">
 </p>
 <p align="left">
-<img src="/img/monad/crazyp2.png" title="hover text">
+<img src="/img/monad/crazyp2.jpg" title="hover text">
 </p>
 <p align="left">
-<img src="/img/monad/crazyp3.png" title="hover text">
+<img src="/img/monad/crazyp3.jpg" title="hover text">
 </p>
 
 <img src="/img/monad/38.png" title="hover text">
