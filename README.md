@@ -48,6 +48,13 @@ Just (+5)<br>
 > Just (+5) <*> (Just 3)<br>
 Just 8<br>
 </p>
+<p>
+јппликативные функторы примен€ют упакованную функцию к упакованному же значению:
+<p>
+<p align="left">
+<img src="/img/applicativefunctor/2.png" width="350" title="hover text">
+</p>
+
 
 
 
