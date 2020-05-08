@@ -189,6 +189,18 @@ https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world
 <p align="left">
 <img src="/img/monad/25.png" title="hover text">
 </p>
+<p><b>Иногда можна получить не совсем тот результат на который расчитывали используя различные библиотеки</b></p>
+<p align="left">
+<img src="/img/monad/32.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/30.png" title="hover text">
+</p>
+<p><b>Полезным, в таких случаях будут примеры из первоситочника так сказать Haskell</b></p>
+<p align="left">
+<img src="/img/monad/26.png" title="hover text">
+</p>
+
 <p align="left">
 <img src="/img/monad/26.png" title="hover text">
 </p>
