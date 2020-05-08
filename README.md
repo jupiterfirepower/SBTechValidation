@@ -175,6 +175,7 @@ https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world
 <img src="/img/monad/38.png" title="hover text">
 </p>
 <p>As joke: Don't be stupid be happy.</p>
+<p>Such as: Don't be crazy(psycho).</p>
 <p> <b>FP style programming подразумевает нечто совершенно другое - компилируется, <br>
 работает и нет возможности ошибок в последующем коде (противоречащим определенным правилам предметной области)</b><br>
 не имеюются ввиду ошибки на уровне логики программиста - то есть написал не ту логику, не тот результат<br>
