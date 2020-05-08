@@ -177,8 +177,8 @@ https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world
 Such as: Don't be crazy(psycho).
 </p>
 <p align="left">                            
-<img src="/img/monad/crazyp.jpg" title="crazy p">
-<img src="/img/monad/crazyp22.png" title="crazy p">
+<img src="/img/monad/crazyp.jpg" width="350" title="crazy p">
+<img src="/img/monad/crazyp22.png" width="350" title="crazy p">
 </p>
 <p align="left">
 <img src="/img/monad/38.png" title="hover text">
