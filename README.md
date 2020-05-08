@@ -139,5 +139,26 @@ https://fsharpforfunandprofit.com/<br>
 <p align="left">
 <img src="/img/monad/13.png" title="hover text">
 </p>
+<p align="left">
+<img src="/img/monad/14s.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/15s.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/16s.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/17s.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/18s.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/19s.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/20s.png" title="hover text">
+</p>
 
 
