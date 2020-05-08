@@ -196,12 +196,23 @@ https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world
 <b>Иногда можна получить не совсем тот результат, на который расчитывали используя библиотеку. <br>
 (Оператор в библиотеке FSharpPlus имеет другое значение(логику) и работает как monadic style</b>
 </p>
+<p>Useful link - https://fsprojects.github.io/FSharpPlus/applicative-functors.html</p>
+<p align="left">
+<img src="/img/monad/35.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/36.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/37.png" title="hover text">
+</p>
 <p align="left">
 <img src="/img/monad/32.png" title="hover text">
 </p>
 <p align="left">
 <img src="/img/monad/31.png" title="hover text">
 </p>
+<p><b>Seq.map (fun x -> string (x + 10)) [ 1..100_000 ] быстрее за FSharpPlus map (fun x -> string (x + 10)) [ 1..100_000 ] в 6.666 раз, почти в 7 раз  </b></p>
 <p><b>Полезным, в таких случаях будут примеры из первоситочника так сказать Haskell</b></p>
 <p align="left">
 <img src="/img/monad/26.png" title="hover text">
