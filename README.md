@@ -137,7 +137,10 @@ https://fsharpforfunandprofit.com/<br>
 <b>Example: Validation using applicative style and monadic style</b><br>
 https://fsharpforfunandprofit.com/posts/elevated-world-3/#validation<br>
 https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world-3.html<br>
-<p> <font size="16" color="red" face="Arial">Не используйте в реальной жизни пример из сайта https://fsharpforfunandprofit.com в изложенном там стиле</font></p>
+</p>
+<p align="left">
+<img src="/img/monad/33.png" title="hover text">
+</p>
 <p align="left">
 <img src="/img/monad/14s.png" title="hover text">
 </p>
