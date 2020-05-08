@@ -119,7 +119,7 @@ http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.h
 https://fsharpforfunandprofit.com/<br>
 </p>
 <p align="left">
-<img src="/img/monad/5.png" title="hover text">
+<img src="/img/monad/55.png" title="hover text">
 </p>
 <p align="left">
 <img src="/img/monad/6.jpg" title="hover text">
