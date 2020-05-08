@@ -117,12 +117,9 @@ http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.h
 </p>
 <p>
 https://fsharpforfunandprofit.com/<br>
-Example: Validation using applicative style and monadic style<br>
-"applicative" vs "monadic" style<br>
-applicative -> applicative functor<br>
-<b>applicative style in context validation - main idea aggregate errors(by validation rules) or construct correct object.</b><br>
-monadic style in context validation -> mean chainable combine (main idea get only first error in chain or construct correct object.<br>
-Railway Oriented Programming to describe this style of monadic error handling.<br>
+</p>
+<p align="left">
+<img src="/img/monad/5.png" title="hover text">
 </p>
 <p align="left">
 <img src="/img/monad/4.png" title="hover text">
