@@ -125,6 +125,12 @@ https://fsharpforfunandprofit.com/<br>
 <img src="/img/monad/6.jpg" title="hover text">
 </p>
 <p align="left">
+<img src="/img/monad/7.jpg" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/8.jpg" title="hover text">
+</p>
+<p align="left">
 <img src="/img/monad/4.png" title="hover text">
 </p>
 
