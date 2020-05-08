@@ -180,6 +180,9 @@ Such as: Don't be crazy(psycho).
 <img src="/img/monad/crazyp.jpg" width="150" title="crazy p">
 <img src="/img/monad/crazyp22.png" width="150" title="crazy p">
 </p>
+<p align="left">                            
+<img src="/img/monad/joke.jpg" title="crazy p">
+</p>
 <p align="left">
 <img src="/img/monad/38.png" title="hover text">
 </p>
