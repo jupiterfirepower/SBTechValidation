@@ -139,6 +139,11 @@ https://fsharpforfunandprofit.com/<br>
 <p align="left">
 <img src="/img/monad/13.png" title="hover text">
 </p>
+<p>
+<b>Example: Validation using applicative style and monadic style</b>
+https://fsharpforfunandprofit.com/posts/elevated-world-3/#validation
+https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world-3.html
+>
 <p align="left">
 <img src="/img/monad/14s.png" title="hover text">
 </p>
@@ -160,5 +165,16 @@ https://fsharpforfunandprofit.com/<br>
 <p align="left">
 <img src="/img/monad/20s.png" title="hover text">
 </p>
+<p align="left">
+<img src="/img/monad/21s.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/22s.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/23s.png" title="hover text">
+</p>
+
+
 
 
