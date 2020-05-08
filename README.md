@@ -16,5 +16,16 @@
 <p align="left">
 <img src="/img/functor/3.png" width="350" title="hover text">
 </p>
+<p>
+Так что мы можем делать так: ?<br>
+> fmap (+3) (Just 2)
+Just 5
+</p>
+<p>
+Вот что происходит за сценой, когда мы пишем fmap (+3) (Just 2):
+</p>
+<p align="left">
+<img src="/img/functor/4.png" width="350" title="hover text">
+</p>
 
 
