@@ -171,9 +171,8 @@ https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world
 <p align="left">
 <img src="/img/monad/23s.png" title="hover text">
 </p>
+<p>Американцы удивляются, как "русские" взламывают их системы. :)</p>
 <p align="left">
-<img src="/img/monad/38.png" title="hover text">
-</p>
 <p>As joke: Don't be stupid be happy.</p>
 <p>Such as: Don't be crazy(psycho).</p>
 <p align="left">
@@ -184,6 +183,9 @@ https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world
 </p>
 <p align="left">
 <img src="/img/monad/crazyp3.png" title="hover text">
+</p>
+
+<img src="/img/monad/38.png" title="hover text">
 </p>
 <p> <b>FP style programming подразумевает нечто совершенно другое - компилируется работает(концепция)<br> 
 и нет возможности ошибок в последующем коде (противоречащим определенным правилам предметной области)</b><br>
