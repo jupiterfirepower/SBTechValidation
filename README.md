@@ -124,21 +124,7 @@ in context validation - main idea aggregate errors(by validation rules) or const
 monadic style -> mean chainable combine (main idea get only first error in chain or construct correct object.<br>
 Railway Oriented Programming to describe this style of monadic error handling.<br>
 </p>
-<p>
-Compose<br>
-Next we have compose, which lets us pipe two bound functions together.<br>
-<b>If the first function returns an Error, the second is never called. </b>
-</p>
-<p>
-let compose f1 f2 =<br>
-&ensp;&ensp;&ensp;&ensp;fun x -> bind f2 (f1 x)<br>
-<br>
-// bind operator<br>
-let (>>=) a b =<br>
-&ensp;&ensp;&ensp;&ensp;bind b a<br>
-<br> 
-// compose operator<br>
-let (>=>) a b =<br>
-&ensp;&ensp;&ensp;&ensp;compose a b<br>
+<p align="left">
+<img src="/img/monad/3.png" width="350" title="hover text">
 </p>
 
