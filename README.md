@@ -133,4 +133,7 @@ https://fsharpforfunandprofit.com/<br>
 <p align="left">
 <img src="/img/monad/4.png" title="hover text">
 </p>
+<p align="left">
+<img src="/img/monad/10.png" title="hover text">
+</p>
 
