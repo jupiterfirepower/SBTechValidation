@@ -192,7 +192,10 @@ https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world
 <p align="left">
 <img src="/img/monad/25.png" title="hover text">
 </p>
-<p><b>Иногда можна получить не совсем тот результат на который расчитывали используя различные библиотеки</b></p>
+<p>
+<b>Иногда можна получить не совсем тот результат, на который расчитывали используя библиотеку. <br>
+(Оператор в библиотеке FSharpPlus имеет другое значение(логику) и работает как monadic style</b>
+</p>
 <p align="left">
 <img src="/img/monad/32.png" title="hover text">
 </p>
