@@ -172,8 +172,9 @@ https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world
 <img src="/img/monad/23s.png" title="hover text">
 </p>
 <p align="left">
-<p>As joke: Don't be stupid be happy.</p>
-<p>Such as: Don't be crazy(psycho).</p>
+<p>As joke: Don't be stupid be happy.<br>
+Such as: Don't be crazy(psycho).
+</p>
 <p align="left">
 <img src="/img/monad/crazyp.jpg" title="hover text">
 </p>
@@ -181,9 +182,9 @@ https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world
 <img src="/img/monad/crazyp2.jpg" title="hover text">
 </p>
 <p align="left">
-<img src="/img/monad/crazyp3.jpg" title="hover text">
+<img src="/img/monad/crazyp3.JPG" title="hover text">
 </p>
-
+<p align="left">
 <img src="/img/monad/38.png" title="hover text">
 </p>
 <p> <b>FP style programming подразумевает нечто совершенно другое - компилируется работает(концепция)<br> 
