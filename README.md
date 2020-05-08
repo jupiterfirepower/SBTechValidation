@@ -179,5 +179,9 @@ https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world
 <p align="left">
 <img src="/img/monad/13.png" title="hover text">
 </p>
+<p> or the same as previous</p>
+<p align="left">
+<img src="/img/monad/24.png" title="hover text">
+</p>
 
 
