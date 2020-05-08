@@ -127,6 +127,7 @@ Railway Oriented Programming to describe this style of monadic error handling.<b
 <p>
 Compose<br>
 Next we have compose, which lets us pipe two bound functions together.<br>
+If the first function returns an Ok(x) as output, the second function takes the x as input and returns some Result.
 </p>
 <p>
 
