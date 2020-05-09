@@ -164,6 +164,16 @@ public static IEnumerable<TResult> Apply<T, TResult>(<br>
 As you can see, here you somehow have to figure out how to combine a sequence of functions with a sequence of values.<br>
 </p>
 <p>
+person <!> name <*> age<br>
+An example is a message stream processing system where events/messages are like Name and Age, which are both required to construct a Person value.<br> 
+A message processor maintains state, where data pieces collected so far are represented as Option<Name> and Option<Age> and so on.<br> 
+Then there is a simple function person : Name -> Age -> Person, expressing the fact that all those pieces are required to make a Person.<br>
+The order in which events arrive is not defined, so the processor must wait until a Person can be made. This is elegantly expressed by<br>
+<br>
+person <!> name <*> age<br>
+which produces a Some if all data has been collected.<br> 
+</p>
+<p>
 https://fsharpforfunandprofit.com/<br>
 </p>
 <p align="left">
