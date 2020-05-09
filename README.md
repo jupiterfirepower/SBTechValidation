@@ -331,9 +331,9 @@ Person - Error [NameBetween1And50] -> ожидалось список из тр�
 <img src="/img/monad/42.png" title="hover text">
 </p>
 <p>
-Applicative style
-let (<!>) = Result.map
-let (<*>) = apply
+Applicative style pattern<br>
+let (<!>) = map<br>
+let (<*>) = apply<br>
 </p>
 
 <p align="left">
