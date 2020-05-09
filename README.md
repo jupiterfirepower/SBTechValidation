@@ -251,7 +251,7 @@ Output:<br>
 { id = CustomerId -1<br>
 &nbsp;&nbsp;email = EmailAddress "email" }<br>
 <br>
-по сути тоже самое что application crach.
+по сути тоже самое что application crash.
 </p>
 <p align="left">                            
 <img src="/img/monad/crazyp.jpg" width="150" title="crazy p">
