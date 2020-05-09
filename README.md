@@ -380,8 +380,39 @@ Person - Error [NameBetween1And50] -> ожидалось список из тр�
 <p align="left">
 <img src="/img/monad/58.png" title="hover text">
 </p>
-
-
+<p align="left">
+<img src="/img/monad/61.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/62.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/63.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/64.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/65.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/66.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/67.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/68.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/69.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/70.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/71.png" title="hover text">
+</p>
 
 
 
