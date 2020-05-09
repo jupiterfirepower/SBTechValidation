@@ -206,11 +206,11 @@ Such as: Don't be crazy(psycho).
 <p align="left">
 <img src="/img/monad/cybs2.jpg" title="hover text">
 </p>
-<p> or the same as previous</p>
+<p> <b>or the same as previous<b></p>
 <p align="left">
 <img src="/img/monad/24.png" title="hover text">
 </p>
-<p>Chessie package very simple example</p>
+<p><b>Chessie package very simple example</b></p>
 <p align="left">
 <img src="/img/monad/25.png" title="hover text">
 </p>
@@ -242,6 +242,13 @@ From FSharpPlus lib source code<br>
 </p>
 <p align="left">
 <img src="/img/monad/31.png" title="hover text">
+</p>
+<p>
+<b>(Комбинация операторов в библиотеке FSharpPlus работает как -> monadic style</b><br>
+<br>
+let badPerson = makePerson "" "alfredgmail.com" -5<br>
+printfn "Person - %A" badPerson<br> 
+Person - Error [NameBetween1And50] -> ожидалось список из трех ошибок.<br>
 </p>
 <p><b>Полезным, в таких случаях будут примеры из первоисточника(так сказать) - Haskell</b></p>
 <p align="left">
