@@ -296,9 +296,6 @@ Person - Error [NameBetween1And50] -> ожидалось список из тр�
 <img src="/img/monad/26.png" title="hover text">
 </p>
 <p align="left">
-<img src="/img/monad/26.png" title="hover text">
-</p>
-<p align="left">
 <img src="/img/monad/27.png" title="hover text">
 </p>
 <p align="left">
