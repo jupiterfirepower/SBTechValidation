@@ -123,6 +123,47 @@ class Functor f => Applicative f where
 &nbsp;&nbsp;(<*>) :: f (a -> b) -> f a -> f b
 </p>
 <p>
+This is a simplification; there's more to the Applicative typeclass than this, but this should highlight the essence.<br>
+What it says is that an applicative functor must already be a Functor.<br> 
+It could be any sort of Functor, like [] (linked list), Maybe, Either, and so on.<br>
+Since Functor is an abstraction, it's called f.<br>
+<br>
+The definition furthermore says that in order for a functor to be applicative, two functions must exist: pure and <*> ('apply').<br>
+pure is easy to understand. It simply 'elevates' a 'normal' value to a functor value.<br> 
+For example, you can elevate the number 42 to a list value by putting it in a list with a single element: [42].<br> 
+Or you can elevate "foo" to Maybe by containing it in the Just case: Just "foo".<br> 
+That is, literally, what pure does for [] (list) and Maybe.<br>
+
+The <*> operator applies an 'elevated' function to an 'elevated' value.<br> 
+When f is [], this literally means that you have a list of functions that you have to apply to a list of values.<br> 
+Perhaps you can already see what I meant by combinations of things.<br>
+</p>
+<p>
+An F# perspective #
+Applicative functors aren't explicitly modelled in F#, but they're easy enough to add if you need them.<br> 
+F# doesn't have typeclasses, so implementing applicative functors tend to be more on a case-by-case basis.<br>
+<br>
+If you need list to be applicative, pure should have the type 'a -> 'a list, and <*> should have the type ('a -> 'b) list -> 'a list -> 'b list.<br> 
+At this point, you already run into the problem that pure is a reserved keyword in F#, so you'll have to find another name, or simply ignore that function.<br>
+<br>
+If you need option to be applicative, <*> should have the type ('a -> 'b) option -> 'a option -> 'b option. <br>
+Now you run into your second problem, because which function is <*>? The one for list, or the one for option? 
+It can't be both, so you'll have to resort to all sorts of hygiene to prevent these two versions of the same operator from clashing.<br> 
+This somewhat limits its usefulness.<br>
+</p>
+<p>
+A C# perspective<br>
+Applicative functors push the limits of what you can express in C#, but the equivalent to <*> would be a method with this signature:<br>
+public static Functor<TResult> Apply<T, TResult>(<br>
+&nbsp;&nbsp;&nbsp;&nbsp;this Functor<Func<T, TResult>> selector,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Functor<T> source)<br>
+Here, the class Functor<T> is a place-holder for a proper functor class. A concrete example could be for IEnumerable<T>:<br>
+public static IEnumerable<TResult> Apply<T, TResult>(<br>
+&nbsp;&nbsp;&nbsp;&nbsp;this IEnumerable<Func<T, TResult>> selectors,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;IEnumerable<T> source)<br>
+As you can see, here you somehow have to figure out how to combine a sequence of functions with a sequence of values.<br>
+</p>
+<p>
 https://fsharpforfunandprofit.com/<br>
 </p>
 <p align="left">
