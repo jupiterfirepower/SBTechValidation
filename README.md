@@ -241,9 +241,9 @@ Such as: Don't be crazy(psycho).
 <p align="left">
 <img src="/img/monad/38.png" title="hover text">
 </p>
-<p> <b><font size="14" color="blue" face="Arial">FP style programming подразумевает нечто совершенно другое - компилируется работает(концепция)<br> 
+<p> <b>FP style programming подразумевает нечто совершенно другое - компилируется работает(концепция)<br> 
 и нет возможности ошибок в последующем коде (противоречащим определенным правилам предметной области)</b><br>
-не имеюются ввиду ошибки на уровне логики программиста - то есть написал не ту логику, не тот результат</font><br>
+не имеюются ввиду ошибки на уровне логики программиста - то есть написал не ту логику, не тот результат<br>
 </p>
 <p>
 <b>Some normal/correct/adequate(theory and practice together) Example</b>: Validation using applicative style <br>
@@ -278,7 +278,7 @@ Such as: Don't be crazy(psycho).
 <p><b>Seq.map (fun x -> string (x + 10)) [ 1..100_000 ] быстрее за FSharpPlus map (fun x -> string (x + 10)) [ 1..100_000 ] в 6.666 раз, почти в 7 раз  </b></p>
 <p align="left">
 <p>
-<b><font color="green">Иногда можна получить не совсем тот результат, на который расчитывали используя библиотеку FSharpPlus.</font><br>
+<b>Иногда можна получить не совсем тот результат, на который расчитывали используя библиотеку FSharpPlus.<br>
 </p>
 <img src="/img/monad/32.png" title="hover text">
 </p>
