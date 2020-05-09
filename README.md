@@ -245,7 +245,7 @@ logic bad<br>
 let bad = Error { id = (CustomerId -1); email = (EmailAddress "email") }<br> 
 logic bad<br>
 <br>
-Output:
+Output:<br>
 { id = CustomerId -1<br>
 &nbsp;&nbsp;email = EmailAddress "email" }<br>
 { id = CustomerId -1<br>
