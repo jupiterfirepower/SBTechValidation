@@ -118,9 +118,9 @@ http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.h
 <p>In Haskell, an applicative functor is defined like this:
 </p>
 <p>
-class Functor f => Applicative f where
-&nbsp;&nbsp;pure  :: a -> f a
-&nbsp;&nbsp;(<*>) :: f (a -> b) -> f a -> f b
+class Functor f => Applicative f where<br>
+&nbsp;&nbsp;pure  :: a -> f a<br>
+&nbsp;&nbsp;(<*>) :: f (a -> b) -> f a -> f b<br>
 </p>
 <p>
 This is a simplification; there's more to the Applicative typeclass than this, but this should highlight the essence.<br>
