@@ -190,9 +190,9 @@ Such as: Don't be crazy(psycho).
 <p align="left">
 <img src="/img/monad/38.png" title="hover text">
 </p>
-<p> <b>FP style programming подразумевает нечто совершенно другое - компилируется работает(концепция)<br> 
+<p> <b><font size="14" color="blue" face="Arial">FP style programming подразумевает нечто совершенно другое - компилируется работает(концепция)<br> 
 и нет возможности ошибок в последующем коде (противоречащим определенным правилам предметной области)</b><br>
-не имеюются ввиду ошибки на уровне логики программиста - то есть написал не ту логику, не тот результат<br>
+не имеюются ввиду ошибки на уровне логики программиста - то есть написал не ту логику, не тот результат</font><br>
 </p>
 <p>
 <b>Some normal/correct/adequate(theory and practice together) Example</b>: Validation using applicative style <br>
@@ -214,10 +214,6 @@ Such as: Don't be crazy(psycho).
 <p align="left">
 <img src="/img/monad/25.png" title="hover text">
 </p>
-<p>
-<b>Иногда можна получить не совсем тот результат, на который расчитывали используя библиотеку. <br>
-(Оператор в библиотеке FSharpPlus имеет другое значение(логику) и работает как monadic style</b>
-</p>
 <p>Useful link - https://fsprojects.github.io/FSharpPlus/applicative-functors.html</p>
 <p align="left">
 <img src="/img/monad/35.png" title="hover text">
@@ -230,8 +226,17 @@ Such as: Don't be crazy(psycho).
 </p>
 <p><b>Seq.map (fun x -> string (x + 10)) [ 1..100_000 ] быстрее за FSharpPlus map (fun x -> string (x + 10)) [ 1..100_000 ] в 6.666 раз, почти в 7 раз  </b></p>
 <p align="left">
+<p>
+<b><font size="14" color="orange">Иногда можна получить не совсем тот результат, на который расчитывали используя библиотеку. <br>
+(Оператор в библиотеке FSharpPlus имеет другое значение(логику) и работает как monadic style</b></font>
+</p>
 <img src="/img/monad/32.png" title="hover text">
 </p>
+<p>
+/// From FSharpPlus source code<br>
+/// Lifts a function into a Functor. Same as map.<br>
+/// To be used in Applicative Style expressions, combined with <*><br>
+&nbsp;&nbsp;&nbsp;&nbsp;let inline (<!>) (f: 'T->'U) (x: '``Functor<'T>``) : '``Functor<'U>`` = Map.Invoke f x
 <p align="left">
 <img src="/img/monad/31.png" title="hover text">
 </p>
