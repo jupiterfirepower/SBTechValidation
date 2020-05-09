@@ -315,7 +315,7 @@ From FSharpPlus lib source code<br>
 <img src="/img/monad/31.png" title="hover text">
 </p>
 <p>
-<b>(Комбинация операторов в библиотеке FSharpPlus работает как -> monadic style</b><br>
+<b>(Комбинация операторов в библиотеке FSharpPlus работает как -> monadic style)</b><br>
 <br>
 let badPerson = makePerson "" "alfredgmail.com" -5<br>
 printfn "Person - %A" badPerson<br> 
