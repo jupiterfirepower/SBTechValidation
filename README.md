@@ -368,6 +368,18 @@ Person - Error [NameBetween1And50] -> ожидалось список из тр�
 <p align="left">
 <img src="/img/monad/51.png" title="hover text">
 </p>
+<p align="left">
+<img src="/img/monad/59.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/56.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/57.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/58.png" title="hover text">
+</p>
 
 
 
