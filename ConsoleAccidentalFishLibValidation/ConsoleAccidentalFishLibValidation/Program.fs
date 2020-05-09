@@ -31,8 +31,40 @@ module Validation =
 
 open Validation
 
+let (<!>) = Option.map   // Option is a functor
+
+let lift x = Some x      // not used, but still conceptually important
+
+let (<*>) fOpt xOpt =
+    match fOpt, xOpt with
+        | Some f, Some x -> Some (f x)
+        | _ -> None
+
 [<EntryPoint>]
 let main _ =
+    Some ((*) 3 4) |> printfn "%A"
+    //(Some 3) * (Some 4) no overload operator can't do it
+    Option.map (fun x -> (*) x) (Some 3) <*> Some 4 |> printfn "%A" 
+    //Option.map (fun x -> (*) x) (Some 3) -> Some ((*) 3) <*> Some 4 -> Some ((*) 3 4) -> Some 12
+    Some ((*) 4) <*> (Some 3) |> printfn "%A"
+    Some (*) <*> Some 3 <*> Some 4 |> printfn "%A"
+
+    let mult = (*)
+    mult <!> Some 3 <*> Some 4 |> printfn "%A"
+    mult <!> None   <*> Some 4 |> printfn "%A"
+    mult <!> Some 3 <*> None   |> printfn "%A"
+    
+    // output:
+    // Some 12
+    // Some 12
+    // Some 12
+    // Some 12
+    // Some 12
+    // Some 12
+    // <null>
+    // <null>
+
+
     let vorder = createOrder "36467DC0-AC0F-43E9-A92A-AC22C68F25D3" "A valid order" (53 |> double)
     printfn "Valid Order - %A" vorder
     let border = createOrder "36467DC0-AC0F-43E9-A92A-AC22C68F25D3111" "" (-10 |> double)

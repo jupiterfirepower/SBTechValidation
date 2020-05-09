@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "eCZzuiqvMyJO3gNFPg8PT2gMqdL5SJ7LXfzMgwWzyXc4/+R7KyQS+7a/ZvA7KiWCUNAXfa1HxYb9uS8RHontMg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\olehp\\source\\repos\\Validation\\ConsoleAccidentalFishLibValidation\\ConsoleAccidentalFishLibValidation\\ConsoleAccidentalFishLibValidation.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\olehp\\.nuget\\packages\\accidentalfish.fsharp.validation\\0.10.1\\accidentalfish.fsharp.validation.0.10.1.nupkg.sha512",
+    "C:\\Users\\olehp\\.nuget\\packages\\fsharp.core\\4.7.0\\fsharp.core.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

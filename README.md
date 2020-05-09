@@ -330,7 +330,24 @@ Person - Error [NameBetween1And50] -> ожидалось список из тр�
 <p align="left">
 <img src="/img/monad/42.png" title="hover text">
 </p>
+<p>
+Applicative style
+let (<!>) = Result.map
+let (<*>) = apply
+</p>
 
+<p align="left">
+<img src="/img/monad/47.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/48.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/45.png" title="hover text">
+</p>
+<p align="left">
+<img src="/img/monad/46.png" title="hover text">
+</p>
 
 
 
