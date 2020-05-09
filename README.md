@@ -232,7 +232,24 @@ https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world
 <p align="left">
 <p>Американцы удивляются, как "русские"(россияне) взламывают их системы. :)</p>
 <p>As joke: Don't be stupid be happy.<br>
-Such as: Don't be crazy(psycho).
+Such as: Don't be crazy(psycho). ("психанул", написал кучу кода ...)<br>
+<br>
+let bad = Ok { id = (CustomerId -1); email = (EmailAddress "email") }<br> 
+let logic x =<br>
+&nbsp;&nbsp;&nbsp;&nbsp;match x with<br>
+&nbsp;&nbsp;&nbsp;&nbsp;| Ok c -> printfn("%A") c<br>
+&nbsp;&nbsp;&nbsp;&nbsp;| Error e -> printfn("%A") e<br>
+<br>
+logic bad<br>
+<br>
+let bad = Error { id = (CustomerId -1); email = (EmailAddress "email") }<br> 
+logic bad<br>
+<br>
+Output:
+{ id = CustomerId -1<br>
+&nbsp;&nbsp;email = EmailAddress "email" }<br>
+{ id = CustomerId -1<br>
+&nbsp;&nbsp;email = EmailAddress "email" }<br>
 </p>
 <p align="left">                            
 <img src="/img/monad/crazyp.jpg" width="150" title="crazy p">
