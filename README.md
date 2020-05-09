@@ -307,12 +307,9 @@ Output:<br>
 </p>
 <p>
 From FSharpPlus lib source code<br>
-/// Lifts a function into a Functor. <b>Same as map.</b><br>
-/// To be used in Applicative Style expressions, combined with <*><br>
-&nbsp;&nbsp;&nbsp;&nbsp;let inline (<!>) (f: 'T->'U) (x: '``Functor<'T>``) : '``Functor<'U>`` = Map.Invoke f x<br>
-<br>
-/// <b>Apply</b> a lifted argument to a lifted function: f <*> arg<br>
-&nbsp;&nbsp;&nbsp;&nbsp;let inline (<*>) (f: '``Applicative<'T -> 'U>``) (x: '``Applicative<'T>``) : '``Applicative<'U>`` = Apply.Invoke f x : '``Applicative<'U>``
+</p>
+</p>
+<img src="/img/monad/52.png" title="hover text">
 </p>
 <p align="left">
 <img src="/img/monad/31.png" title="hover text">
