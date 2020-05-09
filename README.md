@@ -227,7 +227,7 @@ Such as: Don't be crazy(psycho).
 <p><b>Seq.map (fun x -> string (x + 10)) [ 1..100_000 ] быстрее за FSharpPlus map (fun x -> string (x + 10)) [ 1..100_000 ] в 6.666 раз, почти в 7 раз  </b></p>
 <p align="left">
 <p>
-<b><font size="14" color="orange">Иногда можна получить не совсем тот результат, на который расчитывали используя библиотеку FSharpPlus. <br>
+<b><div class="text-orange-light">Иногда можна получить не совсем тот результат, на который расчитывали используя библиотеку FSharpPlus.</div><br>
 </p>
 <img src="/img/monad/32.png" title="hover text">
 </p>
