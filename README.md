@@ -232,7 +232,7 @@ https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world
 <p align="left">
 <p>Американцы удивляются, как "русские"(россияне) взламывают их системы. :)</p>
 <p>As joke: Don't be stupid be happy.<br>
-Such as: Don't be crazy(psycho). ("психанул", написал кучу кода ...)<br>
+Such as: Don't be crazy(psycho). (типа психанул, написал кучу кода ...)<br>
 <br>
 let bad = Ok { id = (CustomerId -1); email = (EmailAddress "email") }<br> 
 let logic x =<br>
@@ -250,6 +250,8 @@ Output:<br>
 &nbsp;&nbsp;email = EmailAddress "email" }<br>
 { id = CustomerId -1<br>
 &nbsp;&nbsp;email = EmailAddress "email" }<br>
+<br>
+по сути тоже самое что application crach.
 </p>
 <p align="left">                            
 <img src="/img/monad/crazyp.jpg" width="150" title="crazy p">
@@ -263,7 +265,8 @@ Output:<br>
 </p>
 <p> <b>FP style programming подразумевает нечто совершенно другое - компилируется работает(концепция)<br> 
 и нет возможности ошибок в последующем коде (противоречащим определенным правилам предметной области)</b><br>
-не имеюются ввиду ошибки на уровне логики программиста - то есть написал не ту логику, не тот результат<br>
+не имеюются ввиду ошибки на уровне логики программиста - то есть написал не ту логику, не тот результат-><br>
+компилируется работает-> не тот результат(программист заложил неправильную логику, ошибка в логике программиста)-> но работает<br>
 </p>
 <p>
 <b>Some normal/correct/adequate(theory and practice together) Example</b>: Validation using applicative style <br>
