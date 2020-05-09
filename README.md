@@ -180,6 +180,9 @@ https://fsharpforfunandprofit.com/<br>
 <img src="/img/monad/55.png" title="hover text">
 </p>
 <p align="left">
+<img src="/img/monad/72.png" title="hover text">
+</p>
+<p align="left">
 <img src="/img/monad/6.jpg" title="hover text">
 </p>
 <p align="left">
