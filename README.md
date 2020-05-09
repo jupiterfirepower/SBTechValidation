@@ -227,16 +227,18 @@ Such as: Don't be crazy(psycho).
 <p><b>Seq.map (fun x -> string (x + 10)) [ 1..100_000 ] быстрее за FSharpPlus map (fun x -> string (x + 10)) [ 1..100_000 ] в 6.666 раз, почти в 7 раз  </b></p>
 <p align="left">
 <p>
-<b><font size="14" color="orange">Иногда можна получить не совсем тот результат, на который расчитывали используя библиотеку. <br>
-(Оператор в библиотеке FSharpPlus имеет другое значение(логику) и работает как monadic style</b></font>
+<b><font size="14" color="orange">Иногда можна получить не совсем тот результат, на который расчитывали используя библиотеку FSharpPlus. <br>
 </p>
 <img src="/img/monad/32.png" title="hover text">
 </p>
 <p>
-/// From FSharpPlus source code<br>
-/// Lifts a function into a Functor. Same as map.<br>
+From FSharpPlus lib source code<br>
+/// Lifts a function into a Functor. <b>Same as map.</b><br>
 /// To be used in Applicative Style expressions, combined with <*><br>
 &nbsp;&nbsp;&nbsp;&nbsp;let inline (<!>) (f: 'T->'U) (x: '``Functor<'T>``) : '``Functor<'U>`` = Map.Invoke f x
+/// <b>Apply</b> a lifted argument to a lifted function: f <*> arg
+&nbsp;&nbsp;&nbsp;&nbsp;let inline (<*>) (f: '``Applicative<'T -> 'U>``) (x: '``Applicative<'T>``) : '``Applicative<'U>`` = Apply.Invoke f x : '``Applicative<'U>``
+</p>
 <p align="left">
 <img src="/img/monad/31.png" title="hover text">
 </p>
