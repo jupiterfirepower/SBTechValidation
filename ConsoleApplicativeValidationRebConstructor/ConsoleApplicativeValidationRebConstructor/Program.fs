@@ -1,45 +1,49 @@
-﻿type CustomerId = private CustomerId of int
-// rebinding the constructor
-let CustomerId id = if id > 0 then
-                       Ok (CustomerId id)
-                    else
-                       Error ["CustomerId must be positive"]
+﻿module DomainModel=
 
-type EmailAddress = private EmailAddress of string
-// rebinding the constructor
-let EmailAddress email = if System.String.IsNullOrEmpty(email) then
-                            Error ["Email must not be empty"]
-                         elif email.Contains("@") then
-                            Ok (EmailAddress email)
-                         else
-                            Error ["Email must contain @-sign"]
+    type CustomerId = private CustomerId of int
+    // rebinding the constructor
+    let CustomerId id = if id > 0 then
+                           Ok (CustomerId id)
+                        else
+                           Error ["CustomerId must be positive"]
 
-type CustomerInfo = private {
-    id: CustomerId
-    email: EmailAddress
- }
+    type EmailAddress = private EmailAddress of string
+    // rebinding the constructor
+    let EmailAddress email = if System.String.IsNullOrEmpty(email) then
+                                Error ["Email must not be empty"]
+                             elif email.Contains("@") then
+                                Ok (EmailAddress email)
+                             else
+                                Error ["Email must contain @-sign"]
 
-let apply fr xr =
-    match fr, xr with
-    | Ok f, Ok x -> Ok (f x)
-    | Error errs, Ok _ -> Error errs
-    | Ok _, Error errs -> Error errs
-    | Error errs1, Error errs2 -> Error (List.concat [errs1; errs2])
+    type CustomerInfo = private {
+        id: CustomerId
+        email: EmailAddress
+    }
 
-let (<!>) = Result.map
-let (<*>) = apply
+    let private apply fr xr =
+        match fr, xr with
+        | Ok f, Ok x -> Ok (f x)
+        | Error errs, Ok _ -> Error errs
+        | Ok _, Error errs -> Error errs
+        | Error errs1, Error errs2 -> Error (List.concat [errs1; errs2])
 
-// applicative version
-let createCustomerApplicative id email =
-    let createCustomer customerId email =
-        { id = customerId; email = email }
+    let private (<!>) = Result.map
+    let private (<*>) = apply
 
-    let idResult = CustomerId id
-    let emailResult = EmailAddress email
+    // applicative version
+    let createCustomerApplicative id email =
+        let createCustomer customerId email =
+            { id = customerId; email = email }
 
-    createCustomer 
-    <!> idResult 
-    <*> emailResult
+        let idResult = CustomerId id
+        let emailResult = EmailAddress email
+
+        createCustomer 
+        <!> idResult 
+        <*> emailResult
+
+open DomainModel
 
 [<EntryPoint>]
 let main _ =
