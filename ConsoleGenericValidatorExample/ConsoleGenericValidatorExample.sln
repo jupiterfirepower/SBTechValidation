@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ConsoleGenericValidatorExample", "ConsoleGenericValidatorExample\ConsoleGenericValidatorExample.fsproj", "{0DFD7EF8-9084-48E9-A2F7-D59E6DDF59A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DFD7EF8-9084-48E9-A2F7-D59E6DDF59A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DFD7EF8-9084-48E9-A2F7-D59E6DDF59A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DFD7EF8-9084-48E9-A2F7-D59E6DDF59A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DFD7EF8-9084-48E9-A2F7-D59E6DDF59A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F6A7106-3090-403D-9719-647E987D54FD}
+	EndGlobalSection
+EndGlobal
