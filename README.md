@@ -247,16 +247,16 @@ https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world
 <p>As joke: Don't be stupid be happy.<br>
 Such as: Don't be crazy(psycho). (типа психанул, написал кучу кода ...)<br></p>
 <p align="left">                            
-<img src="/img/monad/74.png" width="150" title="crazy p">
+<img src="/img/monad/74.png" title="crazy p">
 </p>
 <p>Output:<br></p>
 <p align="left">                            
-<img src="/img/monad/75.png" width="150" title="crazy p">
+<img src="/img/monad/75.png" title="crazy p">
 </p>
 <p>по сути тоже самое что application crash.</p>
 <p align="left">                            
-<img src="/img/monad/crazyp.jpg" width="150" title="crazy p">
-<img src="/img/monad/crazyp22.png" width="150" title="crazy p">
+<img src="/img/monad/crazyp.jpg" width="170" title="crazy p">
+<img src="/img/monad/crazyp22.png" width="170" title="crazy p">
 </p>
 <p align="left">
 <img src="/img/monad/43.png" title="hover text">
