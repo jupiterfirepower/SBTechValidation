@@ -236,6 +236,9 @@ https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/elevated-world
 <p align="left">
 <img src="/img/monad/23s.png" title="hover text">
 </p>
+<p>
+<a href="https://github.com/jupiterfirepower/SBTechValidation/tree/master/BadExampleConsoleFSharpFunForProfit">Bad Example FSharpFunForProfit Source code</a>
+</p>
 <p align="left">
 <p>Американцы удивляются, как "русские"(россияне) взламывают их системы. :)</p>
 <p>As joke: Don't be stupid be happy.<br>
