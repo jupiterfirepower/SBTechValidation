@@ -284,11 +284,11 @@ Output:<br>
 <p align="left">
 <img src="/img/monad/12.png" title="hover text">
 </p>
-<p>
-<a href="https://github.com/jupiterfirepower/SBTechValidation/tree/master/ConsoleApplicativeValidation">Source code</a>
-</p>
 <p align="left">
 <img src="/img/monad/13.png" title="hover text">
+</p>
+<p>
+<a href="https://github.com/jupiterfirepower/SBTechValidation/tree/master/ConsoleApplicativeValidation">Source code</a>
 </p>
 <p align="left">
 <img src="/img/monad/cybs2.jpg" title="hover text">
