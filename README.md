@@ -304,6 +304,9 @@ Output:<br>
 <p align="left">
 <img src="/img/monad/25.png" title="hover text">
 </p>
+<p>
+<a href="https://github.com/jupiterfirepower/SBTechValidation/tree/master/ConsoleChessieValidation">Source code</a>
+</p>
 <p>Useful link - https://fsprojects.github.io/FSharpPlus/applicative-functors.html</p>
 <p align="left">
 <img src="/img/monad/35.png" title="hover text">
