@@ -17,7 +17,7 @@ type Validation<'a,'b> =
         //static member Return x = Success x  // let lift x = Some x
         static member inline (<*>) (f, x) =
             match (f, x) with
-            | Failure e1, Failure e2 -> Failure (List.concat [e1;e2]) 
+            | Failure e1, Failure e2 -> Failure (e1@e2) //(List.concat [e1;e2]) 
             | Failure e1, Success _  -> Failure e1
             | Success _ , Failure e2 -> Failure e2
             | Success f , Success x  -> Success (f x)

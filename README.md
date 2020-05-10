@@ -187,6 +187,9 @@ https://fsharpforfunandprofit.com/<br>
 <img src="/img/monad/72.png" title="hover text">
 </p>
 <p align="left">
+<img src="/img/monad/73.png" title="hover text">
+</p>
+<p align="left">
 <img src="/img/monad/6.jpg" title="hover text">
 </p>
 <p align="left">
@@ -320,7 +323,7 @@ Output:<br>
 <p align="left">
 <img src="/img/monad/37.png" title="hover text">
 </p>
-<p><b>Seq.map (fun x -> string (x + 10)) [ 1..100_000 ] быстрее за FSharpPlus map (fun x -> string (x + 10)) [ 1..100_000 ] в 6.666 раз, почти в 7 раз  </b></p>
+<p><b>Seq.map (fun x -> string (x + 10)) [ 1..100_000 ] быстрее за FSharpPlus map (fun x -> string (x + 10)) [ 1..100_000 ] в 6.666 раз, почти в 7 раз (в ~4-7 раз медленнее за Seq.map)</b></p>
 <p align="left">
 <p>
 <b>Иногда можна получить не совсем тот результат, на который расчитывали используя библиотеку FSharpPlus.</b><br>
