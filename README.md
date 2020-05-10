@@ -328,6 +328,9 @@ Output:<br>
 <img src="/img/monad/32.png" title="hover text">
 </p>
 <p>
+<a href="https://github.com/jupiterfirepower/SBTechValidation/tree/master/ConsoleApplicativeValidationWithMixedStyle">Source code</a>
+</p>
+<p>
 From FSharpPlus lib source code<br>
 </p>
 </p>

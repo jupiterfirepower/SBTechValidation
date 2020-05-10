@@ -46,11 +46,24 @@ let makePerson pName pEmail pAge =
   <*> (Email.create pEmail).Result
   <*> (Age.create pAge).Result
 
+// Example
+type Person = { name: string; age: int } 
+with static member create n a = { name = n; age = a }
+
 [<EntryPoint>]
 let main _ =
-    //let name = { Name.unName = "" } // The union cases or fields of the type 'Name' are not accessible from this code location  -> not compiled can't create incorrect data(incorrect domain model state by validation rules)
+    let person1 = Person.create <!> tryHead ["gus"] <*> tryParse "42"
+    printfn "Person - %A" person1
+    let person2 = Person.create <!> tryHead ["gus"] <*> tryParse "fourty two"
+    printfn "Person - %A" person2
+    let person3 = Person.create <!> tryHead ["gus"] <*> (tryHead ["42"] >>= tryParse)
+    printfn "Person - %A" person3
+
+    // let name = { Name.unName = "" } // The union cases or fields of the type 'Name' 
+    // are not accessible from this code location  -> 
+    // not compiled can't create incorrect data(incorrect domain model state by validation rules)
     let person = makePerson "Alfred" "alfred@gmail.com" 35
     printfn "Person - %A" person
-    let badPerson = makePerson "sgfdgfd" "alfredgmail.com" -5
+    let badPerson = makePerson "" "alfredgmail.com" -5
     printfn "Person - %A" badPerson
     0 // return an integer exit code
