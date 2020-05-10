@@ -393,6 +393,9 @@ Person - Error [NameBetween1And50] -> ожидалось список из тр�
 <p align="left">
 <img src="/img/monad/46.png" title="hover text">
 </p>
+<p>
+<a href="https://github.com/jupiterfirepower/SBTechValidation/tree/master/ConsoleOptionApplicative">Source code</a>
+</p>
 <p align="left">
 <img src="/img/monad/51.png" title="hover text">
 </p>
