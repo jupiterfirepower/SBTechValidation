@@ -54,6 +54,8 @@ let main _ =
 
     let tmpCustomerId = (CustomerId -1) 
     printfn "CustomerId - %A" tmpCustomerId
+    //The union cases or fields of the type 'CustomerInfo' are not accessible from this code location
     //let tryCreateBadCustomerWithError = { id = (CustomerId -1); email = EmailAddress "email" } 
 
     0 // return an integer exit code
+

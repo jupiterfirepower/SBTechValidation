@@ -297,6 +297,9 @@ Output:<br>
 <p align="left">
 <img src="/img/monad/24.png" title="hover text">
 </p>
+<p>
+<a href="https://github.com/jupiterfirepower/SBTechValidation/tree/master/ConsoleApplicativeValidationRebConstructor">Source code</a>
+</p>
 <p><b>Chessie package very simple example</b></p>
 <p align="left">
 <img src="/img/monad/25.png" title="hover text">
