@@ -251,7 +251,7 @@ Such as: Don't be crazy(psycho). (типа психанул, написал ку
 </p>
 <p>Output:<br></p>
 <p align="left">                            
-<img src="/img/monad/75.png" title="crazy p">
+<img src="/img/monad/76.png" title="crazy p">
 </p>
 <p><b>по сути тоже самое что application crash.</b></p>
 <p align="left">                            
