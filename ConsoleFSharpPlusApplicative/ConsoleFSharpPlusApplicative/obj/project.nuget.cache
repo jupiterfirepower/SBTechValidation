@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1Qa8E+j2bzqQbbuOYfhYjcVvl1kcNEeQ/oZ6MJr64fP8BROfH6Lz2l+hi79FuxeLuM7p+ItvQKioJFtPXCE92A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\olehp\\source\\repos\\Validation\\ConsoleFSharpPlusApplicative\\ConsoleFSharpPlusApplicative\\ConsoleFSharpPlusApplicative.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\olehp\\.nuget\\packages\\fsharp.core\\4.7.0\\fsharp.core.4.7.0.nupkg.sha512",
+    "C:\\Users\\olehp\\.nuget\\packages\\fsharpplus\\1.1.0\\fsharpplus.1.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

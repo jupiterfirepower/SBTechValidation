@@ -1,6 +1,5 @@
 ﻿open System
-//open FSharpPlus //FSharpPlus Functors and Applicatives
-//Extensions for F# -> F#+
+//open FSharpPlus //FSharpPlus Functors and Applicatives Extensions for F# -> F#+
 type Validation<'a,'b> =
     | Success of 'a
     | Failure of 'b
@@ -18,6 +17,7 @@ type Validation<'a,'b> =
         static member inline (<*>) (f, x) =
             match (f, x) with
             | Failure e1, Failure e2 -> Failure (e1@e2) //(List.concat [e1;e2]) 
+            //| Failure e1, Failure e2 -> Failure (e1++e2) concat monoid ++ operator from //open FSharpPlus package
             | Failure e1, Success _  -> Failure e1
             | Success _ , Failure e2 -> Failure e2
             | Success f , Success x  -> Success (f x)
