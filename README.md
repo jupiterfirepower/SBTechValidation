@@ -181,7 +181,7 @@ which produces a Some if all data has been collected.<br>
 https://fsharpforfunandprofit.com/<br>
 </p>
 <p align="left">
-<img src="/img/monad/55.png" title="hover text">
+<img src="/img/monad/39n.png" title="hover text">
 </p>
 <p align="left">
 <img src="/img/monad/72.png" title="hover text">
