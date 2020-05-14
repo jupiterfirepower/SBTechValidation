@@ -202,6 +202,9 @@ https://fsharpforfunandprofit.com/<br>
 <img src="/img/bind/88.png" title="hover text">
 </p>
 <p align="left">
+<img src="/img/monad/80.png" title="hover text">
+</p>
+<p align="left">
 <img src="/img/monad/77.png" title="hover text">
 </p>
 <p align="left">
@@ -209,9 +212,6 @@ https://fsharpforfunandprofit.com/<br>
 </p>
 <p align="left">
 <img src="/img/monad/79.png" title="hover text">
-</p>
-<p align="left">
-<img src="/img/monad/80.png" title="hover text">
 </p>
 <p align="left">
 <img src="/img/monad/82.png" title="hover text">
