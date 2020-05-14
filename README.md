@@ -297,6 +297,9 @@ Such as: Don't be crazy(psycho). (типа психанул, написал ку
 </p>
 <p><b>по сути тоже самое что application crash.</b></p>
 <p align="left">                            
+<img src="/img/monad/84.png" title="data modeling">
+</p>
+<p align="left">                            
 <img src="/img/monad/crazyp.jpg" width="170" title="crazy p">
 <img src="/img/monad/crazyp22.png" width="170" title="crazy p">
 </p>
