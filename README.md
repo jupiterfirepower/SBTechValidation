@@ -209,16 +209,11 @@ https://fsharpforfunandprofit.com/<br>
 <img src="/img/monad/82.png" width="450" title="hover text">
 </p>
 <p align="left">
-<img src="/img/monad/82.png" title="hover text">
-</p>
-<p align="left">
-<img src="/img/monad/81.png" title="hover text">
-</p>
-<p align="left">
 <img src="/img/bind/84.png" title="hover text">
 </p>
 <p align="left">
-<img src="/img/bind/90.png" title="hover text">
+<img src="/img/bind/90.png" width="450" title="hover text">
+<img src="/img/bind/89.png" width="450" title="hover text">
 </p>
 <p align="left">
 <img src="/img/bind/89.png" title="hover text">
